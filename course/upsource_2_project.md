@@ -74,14 +74,34 @@ Repository URL에 등록하고자하는 Github 프로젝트의 URL을 입력하�
 
 ![upsource31](../images/upsource31.png)
 
-### 3) 코드리뷰 신청하기
-
-
+Github과의 연동이 끝났습니다!  
+이제 IntelliJ와 연동을 시작하겠습니다.
 
 ## 2-2. IntelliJ IDEA
 
+먼저 Upsource 플러그인을 설치합니다.
 
+![upsource32](../images/upsource32.png)
 
+설치가 되시면 플러그인 적용이 되도록 IDE를 Restart 합니다.  
+IDE가 다시 시작되면 Preferences -> upsource 검색으로 Upsource 주소를 입력합니다.
+
+![upsource33](../images/upsource33.png)
+
+**Test Connection** 버튼을 클릭하시면 웹 브라우저가 열리면서 Upsource 로그인 페이지로 이동됩니다.  
+로그인 페이지에서 로그인을 하시면 아래와 같이 승인창이 등장합니다.
+
+![upsource34](../images/upsource34.png)
+
+권한 인증과 같은 페이지이기 때문에 **Accept**을 클릭하시면 Connection이 성공됐다는 Alert이 나타납니다.
+
+![upsource35](../images/upsource35.png)
+
+Upsource와 IntelliJ 연동이 성공적으로 끝나시면 IntelliJ의 화면 우측과 하단에 Upsource 관련 탭이 추가된것을 확인할 수 있습니다.
+
+![upsource36](../images/upsource36.png)
+
+자 이제! IDE와 연동도 완료되었으니 실제로 코드리뷰 과정을 진행해보겠습니다.
 
 
 
