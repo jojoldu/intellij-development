@@ -139,6 +139,8 @@ push후, Upsource 프로젝트 페이지로 가보시면 아래와 같이 브랜
 
 ## 3-3. Pull Request
 
+![upsource61](../images/upsource61.png)
+
 
 
 
