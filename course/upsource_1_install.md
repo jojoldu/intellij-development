@@ -103,9 +103,6 @@ sudo bin/upsource.sh start
 ![upsource4](../images/upsource4.png)
 
 Set Up을 클릭하시면 서버에서 설정한 값이 그대로 확인 됩니다.  
-
-![upsource5](../images/upsource5.png)
-
 Next를 클릭하시고,  
 Use Built-in Hub를 클릭하신뒤,  
 Upsource의 Root 계정을 생성합니다.
