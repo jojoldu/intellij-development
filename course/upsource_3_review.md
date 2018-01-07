@@ -1,6 +1,6 @@
 # 3. Upsource 코드리뷰
 
-[지난 2부](http://jojoldu.tistory.com/257)에 이어 이번시간엔 Upsource로 코드리뷰를 진행해보겠습니다.  
+[지난 2부](http://jojoldu.tistory.com/257)에 이어 이번시간엔 Upsource로 코드리뷰 과정을 소개드리겠습니다.  
 
 ## 3-1. Github Sync 주기 설정
 
@@ -139,9 +139,57 @@ push후, Upsource 프로젝트 페이지로 가보시면 아래와 같이 브랜
 
 ## 3-3. Pull Request
 
+Pull Request를 통해 코드리뷰를 진행하는 경우가 많습니다.  Upsource에도 Pull Request(이하 PR) 기능이 있기 때문에 이를 통해 코드리뷰 진행하는 과정을 진행하겠습니다.
+
+### 1) Pull Request 설정
+
+현재 설정으로는 바로 PR을 진행할 수 없으며, Github에서 Pull Reqeust 이벤트도 Sync 대상에 포함되도록 설정을 추가하겠습니다.  
+  
+Upsource 도메인에 ```/administration```로 가셔서 
+Project의 **Edit proejct** 버튼을 클릭합니다.  
+아래와 같은 설정 페이지에서 **Import pull requests as branches**, **Synchronize comments and pull requests**를 체크합니다.
+
 ![upsource61](../images/upsource61.png)
 
+인증 토큰이 있어야 하니 **Acquire synchronization token**을 클릭하셔서 토큰값을 받으면 설정은 끝납니다.
+
+![upsource62](../images/upsource62.png)
 
 
+### 2) PR 과정
 
+위 과정을 통해 설정이 끝나셨으면 이제 실제 PR 과정을 진행하겠습니다.  
+PR 하고자하는 브랜치를 선택하셔서 우측 상단의 **Create pull request...** 를 선택합니다.
+
+![upsource63](../images/upsource63.png)
+
+이번 PR에 대해 설정하는 Modal창에 PR을 받을 브랜치 (보통은 Develop가 되는데 여기선 Master에 바로 진행합니다.)를 선택합니다.
+
+![upsource64](../images/upsource64.png)
+
+PR페이지가 생성되면 review 페이지와 마찬가지로 리뷰어를 등록합니다.  
+이후 과정은 코드리뷰와 동일합니다.
+
+![upsource65](../images/upsource65.png)
+
+리뷰어는 해당 브랜치 커밋을 보고 코드리뷰를 진행합니다.
+
+![upsource66](../images/upsource66.png)
+
+코드리뷰가 모두 Accept가 되면 PR 요청자는 PR페이지 좌측 상단의 PR 링크를 클릭합니다.
+
+![upsource67](../images/upsource67.png)
+
+머지될 대상인 브랜치와 Conflict 나지 않는 것을 확인후, **Merge...** 버튼을 클릭해 PR을 마무리합니다.
+
+![upsource68](../images/upsource68.png)
+
+PR이 성공적으로 진행되었음을 확인할 수 있습니다.
+
+![upsource69](../images/upsource69.png)
+
+여기까지! Upsource의 기본적인 사용법을 정리했습니다.  
+이젠 직접 써보시면서 익히시면 충분하실것 같습니다.  
+추가 팁들은 어느정도 양이 확보되면 정리하겠습니다.  
+끝까지 읽어주셔서 감사합니다^^
 
