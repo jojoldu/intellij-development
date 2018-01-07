@@ -15,6 +15,6 @@ public abstract class NumberUtil {
             return 0L;
         }
 
-        return Long.valueOf(s);
+        return Long.valueOf(s.trim());
     }
 }
