@@ -21,7 +21,7 @@
 
 **Mac OS를 기준**으로 하기 때문에 단축키가 윈도우/리눅스와는 다를 수 있습니다.
 
-## 기본 설정
+## 1. 기본 설정
 
 IDE에서 Action 검색 -> servers를 입력하여 이동합니다.
 
@@ -51,7 +51,7 @@ assignee = currentUser() and resolution = Unresolved order by updated
 
 기본 설정이 완료 되었으니 실제 업무 Flow대로 진행해보겠습니다.
 
-## 업무 Flow
+## 2. 업무 Flow
 
 현재 IntelliJ Task 기능으로는 **JIRA 티켓 생성이 안됩니다**.  
 보통 기획/운영 쪽에서 티켓을 생성해 개발자에게 할당하고 개발이 시작되겠지만, 개발자가 티켓 생성해서 진행해야한다면 JIRA 사이트에서 생성하셔야만 합니다.  
@@ -59,6 +59,8 @@ assignee = currentUser() and resolution = Unresolved order by updated
 저는 테스트용으로 미리 생성한 티켓으로 시작하겠습니다.
 
 ![jira4](../../images/jira4.png)
+
+### 2-1. 기본 사용법
 
 티켓 ID는 팀 규칙에 따라 ST-1232가 됩니다.  
 자 그럼 이제 IDE에서 해당 티켓을 찾습니다.  
@@ -80,6 +82,23 @@ Mac OS 기준으로 ```option+shift+n``` 을 사용하시면 아래와 같이 �
 git console과 IDE에서 feature/ST-1232가 생성된 것을 확인할 수 있습니다.
 
 ![jira7](../../images/jira7.png)
+
+JIRA 사이트에 가서 상태가 변경되었는지도 확인합니다.
+
+![jira8](../../images/jira8.png)
+
+자 이제 개발이 완료되면 커밋을 진행합니다.  
+Mac OS 기준으로 ```command+k```를 사용합니다.
+
+![jira9](../../images/jira9.png)
+
+보시면 **커밋 메세지가 자동 생성**된 것을 확인할 수 있습니다.  
+기본 옵션으로 커밋 메세지는 **티켓ID + 제목**입니다.  
+
+![jira10](../../images/jira10.png)
+
+
+### 2-2) 커밋 메세지 템플릿
 
 
 ## 참고
