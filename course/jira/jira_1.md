@@ -60,8 +60,6 @@ assignee = currentUser() and resolution = Unresolved order by updated
 
 ![jira4](../../images/jira4.png)
 
-### 2-1. 기본 사용법
-
 티켓 ID는 팀 규칙에 따라 ST-1232가 됩니다.  
 자 그럼 이제 IDE에서 해당 티켓을 찾습니다.  
   
@@ -94,13 +92,24 @@ Mac OS 기준으로 ```command+k```를 사용합니다.
 
 보시면 **커밋 메세지가 자동 생성**된 것을 확인할 수 있습니다.  
 기본 옵션으로 커밋 메세지는 **티켓ID + 제목**입니다.  
+모든 개발이 완료되셨으면 이제 티켓을 종료하고, 브랜치를 Merge 합니다.  
+Mac OS 기준으로 ```option+shift+w```를 사용합니다.
 
 ![jira10](../../images/jira10.png)
 
+티켓 상태를 Done으로 변경합니다!
 
-### 2-2) 커밋 메세지 템플릿
+![jira11](../../images/jira11.png)
+
+
+## 3. 추가 설정
+
+### 1. 브랜치명 템플릿 변경
+
+### 2. 커밋 메세지 템플릿 변경
+
 
 
 ## 참고
 
-* [Working with JIRA Issues in IDEA](https://confluence.atlassian.com/display/IDEPLUGIN/Working+with+JIRA+Issues+in+IDEA)
+* [Working with JIRA Issues in IDEA](https://www.jetbrains.com/help/idea/managing-tasks-and-contexts.html#issue_tracker_integration)
