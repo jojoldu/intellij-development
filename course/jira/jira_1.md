@@ -17,7 +17,7 @@
 아래 내용은 모두 **IntelliJ의 기본 기능**으로 진행합니다.  
 
 > Tip)  
-공식 플러그인으로 [Atlasian Plugin](https://plugins.jetbrains.com/plugin/2190-atlassian-connector-for-intellij-ide)이 있지만 2015년까지만 업데이트 되고, 현재 IntelliJ 2017.3 버전에서 정상작동 하지 않습니다.  
+공식 플러그인으로 [Atlasian Plugin](https://plugins.jetbrains.com/plugin/2190-atlassian-connector-for-intellij-ide)이 있지만 2015년까지만 업데이트 되고, 현재 IntelliJ 2017.3 버전에서 **정상작동 하지 않습니다**.  
 
 **Mac OS를 기준**으로 하기 때문에 단축키가 윈도우/리눅스와는 다를 수 있습니다.
 
@@ -92,29 +92,72 @@ Mac OS 기준으로 ```command+k```를 사용합니다.
 
 보시면 **커밋 메세지가 자동 생성**된 것을 확인할 수 있습니다.  
 기본 옵션으로 커밋 메세지는 **티켓ID + 제목**입니다.  
-모든 개발이 완료되셨으면 이제 티켓을 종료하고, 브랜치를 Merge 합니다.  
-Mac OS 기준으로 ```option+shift+w```를 사용합니다.
+개발이 완료되셨으면 팀내 전략에 따라 코드리뷰를 진행하시면 됩니다.  
+코드리뷰가 진행되니 티켓의 상태도 In Review로 변경하겠습니다.  
+Mac OS 기준으로 ```option+shift+w```를 사용합니다.  
 
 ![jira10](../../images/jira10.png)
 
-티켓 상태를 Done으로 변경합니다!
+(브랜치 Merge는 Pull Request 혹은 리뷰어가 진행하니 Merge 체크박스는 해제합니다.)  
+  
+JIRA 사이트에 가보시면 아래처럼 상태가 In Review로 변경된것을 확인할 수 있습니다.  
 
 ![jira11](../../images/jira11.png)
 
+자 이제 코드리뷰도 끝나서 Develop에 본인의 브랜치가 Merge 됐다면, Develop에서 Release 브랜치를 생성합니다.
 
+![jira12](../../images/jira12.png)
+
+Release 브랜치로 QA도 끝나서 배포 준비가 완료되시면 티켓 상태도 Done 처리합니다.  
+InReview때와 마찬가지로 ```option+shift+w```를 사용해 Done처리합니다.
+
+![jira13](../../images/jira13.png)
+
+JIRA 사이트에 가보시면 Done 처리되었음을 확인할 수 있습니다.
+
+![jira14](../../images/jira14.png)
+
+하나의 **업무 프로세스가 IntelliJ 만으로** 끝났습니다!
 
 ## 3. 추가 설정
 
-### 1. 브랜치명 템플릿 변경
+아래는 Task 관련 기능을 본인의 취향에 맞게 수정하는 기능들입니다.
 
-### 2. 커밋 메세지 템플릿 변경
+### 3-1. 브랜치명 템플릿 변경
 
+기본적으로 Task에서 생성해주는 브랜치명은 티켓 ID로 자동할당됩니다.  
+하지만 일반적으로는 feature/티켓ID로 생성되어야하므로, 생성 템플릿을 변경하겠습니다.  
+  
+Preferences -> Tasks -> **Feature branch name format**을 본인이 원하는 규칙으로 수정합니다.
+
+![jira15](../../images/jira15.png)
+
+
+### 3-2. 커밋 메세지 템플릿 변경
+
+티켓 처리중인 상황에선 커밋 메세지도 티켓 기반으로 생성할 수 있습니다.  
+기본 옵션은 ```티켓ID 티켓타이틀```이지만, 사내 컨벤션에 따라 다르게 해야할 수 도 있습니다.  
+예를 들어 저희팀의 커밋 메세지 규칙은 ```[티켓 ID] 커밋 메세지``` 입니다.  
+그래서 ID의 앞 뒤로 ```[]```가 필요합니다.  
+  
+브랜치명 변경과 마찬가지로, Preferences -> Tasks-> Servers -> **Commit Message** 탭을 클릭해 본인이 원하는 규칙으로 수정합니다.
+
+![jira16](../../images/jira16.png)
+
+(커밋 메세지 템플릿란 하단의 내용을 보시면 티켓의 속성들을 어떤 키값으로 쓸수있는지 알 수 있습니다.)  
+  
+이후의 커밋 메세지는 자동으로 위 템플릿 대로 생성되니, 필요한 내용만 수정해서 커밋하시면 됩니다.
+
+![jira9](../../images/jira9.png)
 
 ## 4. 주의 사항
 
-Task 종료를 위해 
-
+IntelliJ Task 기능은 현재(2017.3버전) **티켓 생성**은 지원하지 않습니다.  
+혹시 본인이 직접 티켓 생성해야한다면 JIRA 사이트에서 직접 하셔야만 합니다.  
+  
 
 ## 참고
 
 * [Working with JIRA Issues in IDEA](https://www.jetbrains.com/help/idea/managing-tasks-and-contexts.html#issue_tracker_integration)
+
+* [Git Merge Configuration Not Support](https://youtrack.jetbrains.com/issue/IDEA-99115)
