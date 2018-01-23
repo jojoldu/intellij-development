@@ -1,4 +1,13 @@
 ### 기본사용
 GET https://www.devbeginner.com
 
-###
+### 로컬
+GET http://localhost:8080/hello
+
+### 개발
+GET http://localhost:8080/dev/hello
+Authorization: DEV
+
+### 운영
+GET http://localhost:8080/real/hello
+Authorization: DEV
