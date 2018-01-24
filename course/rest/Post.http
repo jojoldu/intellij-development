@@ -1,0 +1,25 @@
+### 직접 JSON 사용
+POST http://localhost:8080/group
+Content-Type: application/json
+
+{
+  "groupName": "그룹명",
+  "members": [
+    "회원1",
+    "회원2",
+    "회원3"
+  ],
+  "date": {
+    "year": 2018,
+    "month": 1,
+    "day": 24
+  }
+}
+
+### 로컬 파일 사용
+POST http://localhost:8080/group
+Content-Type: application/json
+
+< ./post.json
+
+###

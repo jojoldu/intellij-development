@@ -1,6 +1,5 @@
-package com.jojoldu.intellij.development.web;
+package com.jojoldu.intellij.development.web.http;
 
-import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -15,8 +14,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 
 @RestController
-@AllArgsConstructor
-public class ApiController {
+public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
