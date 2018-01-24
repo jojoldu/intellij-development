@@ -23,7 +23,6 @@ public class PostController {
         return groupDto;
     }
 
-
     @Setter
     @Getter
     @NoArgsConstructor
