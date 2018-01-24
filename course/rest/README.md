@@ -5,7 +5,7 @@
 
 ## 소개
 
-프로젝트를 계속 운영하다보면 **로컬 환경외에 개발/운영 환경에서 API 요청이 잘되는지 확인**이 필요할때가 많습니다.  
+프로젝트를 계속 운영하다보면 로컬 환경외에 **개발/운영 환경에서 API 요청이 잘되는지 확인**이 필요할때가 많습니다.  
   
 * 베타/운영 서버의 A API 값이 안나와요. 확인좀 해주세요.
 * 베타 서버의 B API 사용해보려면 어떻게 해야 하나요?
@@ -160,6 +160,7 @@ IntelliJ의 ```.http```는 파일 데이터도 그대로 보낼 수가 있습니
 
 ```
 ### 로컬 파일 사용
+
 POST http://localhost:8080/group
 Content-Type: application/json
 
@@ -170,11 +171,157 @@ Content-Type: application/json
 
 ![post4](./images/post4.png)
 
-### 3. Request Header 수정해서 요청
+JSON 데이터가 잘 넘어갔습니다!  
+  
+Request Header와 데이터형태를 변경하면 [multipart/form-data와 같이 파일 업로드, 이미지 업로드](https://www.jetbrains.com/help/idea/rest-client-in-intellij-idea-code-editor.html) 등의 API도 쉽게 테스트할수 있겠죠?
 
-### 4. Cookie 수정해서 요청
+### 3. Request Header 수정
 
-### 5. Log
+이번엔 Request Header에 특정 필드를 추가해서 요청하는 기능을 테스트하겠습니다.  
+예를 들어, 서버간 JSON API 통신에서는 인증키를 Request Header에 심어서 주고 받습니다.  
+운영에서 사용중인 API를 갑자기 테스트해야할때면 Request Header에 심어야하는데요.  
+Postman으로 테스트하기에 어려운점이 많아 [Mod Header](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj) 등을 사용했습니다.  
+이런 기능들도 ```.http```로 해결해보겠습니다.  
+  
+역시 추가로 간단한 RestController를 하나 만들어서 진행하겠습니다.
+
+```java
+@RestController
+public class HelloController {
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "hello";
+    }
+
+    @GetMapping("/dev/hello")
+    public String devHello(HttpServletRequest request) {
+        String auth = request.getHeader("Authorization");
+
+        if(!"DEV".equals(auth)){
+            throw new AccessDeniedException();
+        }
+
+        return "devHello";
+    }
+
+    @GetMapping("/real/hello")
+    public String realHello(HttpServletRequest request) {
+        String auth = request.getHeader("Authorization");
+
+        if(!"PRODUCTION".equals(auth)){
+            throw new AccessDeniedException();
+        }
+
+        return "productionHello";
+    }
+
+    @ResponseStatus(HttpStatus.UNAUTHORIZED)
+    static class AccessDeniedException extends RuntimeException {
+
+    }
+}
+```
+
+위 코드는 간단합니다.  
+Request Header에 있는 ```Authorization```값을 보고 지정한 값이 아니면 401 Exception을 반환합니다.  
+
+> Tip)  
+실제라면 SpringSecurity 혹은 인터셉터등을 통해서 인증키값을 검증해야합니다.
+
+그리고 테스트할 ```.http```의 내용은 아래와 같습니다.
+
+```
+### 로컬
+GET http://localhost:8080/hello
+
+### 개발 오류
+GET http://localhost:8080/dev/hello
+
+### 개발 정상
+GET http://localhost:8080/dev/hello
+Authorization: DEV
+
+### 운영
+GET http://localhost:8080/real/hello
+Authorization: PRODUCTION
+
+```
+
+개발 오류부분부터 먼저 실행해보겠습니다.
+
+![hello1](./images/hello1.png)
+
+
+인증헤더값이 없어 정상적으로 401 에러를 반환합니다.  
+자 그럼 인증 헤더를 담은 개발 정상 요청을 해봅니다.
+
+![hello2](./images/hello2.png)
+
+인증 헤더값이 정상적으로 작동하는걸 확인할 수 있습니다!
+
+### 4. Cookie 수정
+
+3번과 마찬가지로 Cookie에 특정값을 넣어서 테스트할 경우 사용할 수 있습니다.  
+간단한 Controller 부터 생성하신뒤,
+
+```java
+@RestController
+public class CookieController {
+
+    @GetMapping("/cookie")
+    public String getCookie(@CookieValue("user") String user) {
+        return user+"님 안녕하세요!";
+    }
+}
+
+```
+
+cookie의 경우 문법은```key=value```방식으로 작성하시면 됩니다.  
+ ```.http```파일엔 다음과 같이 코드를 작성하겠습니다.
+
+```
+### Cookie
+GET http://localhost:8080/cookie
+Cookie: user=jojoldu
+```
+
+user라는 Key에 ```jojoldu```라는 값을 넣고 실행해보시면!
+
+![cookie](./images/cookie.png)
+
+Controller에서 Cookie값을 받아 반환하는 것이 확인됩니다.
+
+### 5. log
+
+IntelliJ의 ```.http``` 요청은 모두 로그로 남기고 있습니다.  
+Response Body가 너무 많을 경우엔 IntelliJ 화면에서 끊길수가 있습니다.  
+이럴때 로그 파일로 확인하시면 좋습니다.  
+로그 파일의 위치는 ```프로젝트폴더/.idea/httpRequests/``` 아래에 모두 있습니다.
+
+![log1](./images/log1.png)
+
+여기서 ```http-requests-log.http```는 ```.http```를 통
+그외 나머지 ```.json```, ```.txt```는 Response 결과들입니다.
+
+![log2](./images/log2.png)
+
+(```http-requests-log.http```)
+
+![log3](./images/log3.png)
+
+(JSON응답은 ```.json```으로, 그외 HTML, 문자열등의 응답은 ```.txt```로 남깁니다.)  
+
+### 6. Controller로 자동생성
+
+[2018.1 버전부터 추가](https://blog.jetbrains.com/idea/2018/01/whats-new-in-intellij-idea-2018-1-eap-4/)되는 기능입니다.  
+  
+Controller를 기반으로 ```.http```파일을 자동생성해줍니다.
+
+![2018.1](./images/2018-1.gif)
+
+2018.1 EAP부터 사용가능하다고해서 EAP버전으로 올려서 테스트해봤지만 **현재(2018.01.25)** 는 기능이 작동되지 않고 있습니다.  
+문의는 드린 상태인데 혹시나 변경 사항이 있으면 수정해놓겠습니다!
 
 ## 마무리
 

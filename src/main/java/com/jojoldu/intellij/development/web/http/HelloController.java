@@ -47,6 +47,4 @@ public class HelloController {
     static class AccessDeniedException extends RuntimeException {
 
     }
-
-
 }
