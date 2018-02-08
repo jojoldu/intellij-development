@@ -2,6 +2,7 @@
 
 ## 목차
 
+* IntelliJ 권장 설정
 * Git & Github 프로젝트 생성
 * [Jira 티켓 관리](http://jojoldu.tistory.com/260) 
 * [Gitflow로 브랜치 관리](http://jojoldu.tistory.com/268)
