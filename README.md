@@ -10,7 +10,9 @@
 * Database 플러그인 사용해서 다양한 DB 접근
   * [MariaDB 접근하기](http://jojoldu.tistory.com/264)
   * [Oracle 접근하기](http://jojoldu.tistory.com/169)
-  * [H2 접근하기](http://jojoldu.tistory.com/234)
+  * [SpringBoot에 의존적인 H2 접근하기](http://jojoldu.tistory.com/234)
 * [Upsource 플러그인 사용해서 코드리뷰](http://jojoldu.tistory.com/256)
+* Json 작업
+
 
 
