@@ -19,4 +19,14 @@ public class RegexTester {
         //then
 
     }
+
+    @Test
+    public void 정규표현식_테스트2() {
+        //given
+        String a = "[0-9]";
+        //when
+
+        //then
+
+    }
 }
