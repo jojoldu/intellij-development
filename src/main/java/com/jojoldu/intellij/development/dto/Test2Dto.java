@@ -9,5 +9,6 @@ package com.jojoldu.intellij.development.dto;
 public class Test2Dto {
     public void print() {
         System.out.println("aaas");
+        System.out.println("aaas");
     }
 }
