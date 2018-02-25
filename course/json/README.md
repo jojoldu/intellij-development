@@ -74,10 +74,50 @@ Json 코드로 잘 복사 되었는지 확인하기 위해 naver.json 이란 파
 POJO 클래스가 아주 정확하게 Json 코드로 복사된 것을 확인할 수 있습니다.  
 만약 외부에 API 스펙을 전달해야한다면 DTO 혹은 Entity 클래스를 그대로 Json 코드로 복사해서 전달하면 되겠죠?
 
-
 ## 3. 문자열에서 바로 Json String 생성하기
 
+이번에는 Java나 Javascript와 같은 코드에서 즉시 JSON 문자열을 쉽게 생성할 수 있는 방법을 소개드리겠습니다.  
+  
+문자열 안에서 맥북 기준으로 ```option+enter``` -> ```Inject Language or Reference```선택합니다.
+
+![10](./images/10.png)
+
+**JSON**을 선택합니다.
+
+![11](./images/11.png)
+
+**Edit JSON Fragement** 선택합니다.
+
+![12](./images/12.png)
+
+그럼 JSON 코드 사용모드가 열립니다.  
+아래 하단 영역에서 JSON 입력시 자동으로 커서가 있는 곳에 ```\```추가한 JSON 형태의 문자열이 코드 작성시 자동으로 추가됩니다.
+
+![13](./images/13.png)
+
+이제는 한땀한땀 개발자가 ```\"```을 넣어가며 Json 문자열을 생성할 필요가 없겠죠?
 
 ## 4. Json Format
 
-JSON Viewer 
+따로 Json 파일을 생성하지 않고, 즉시 Json 코드를 확인하고 재정렬 시킬수 있는 플러그인도 있습니다.  
+기존에는 어디선가 받은 Json 데이터를 정렬해서 보려면 [jsoneditoronline](https://jsoneditoronline.org/)와 같은 곳에 붙여넣기 해서 보곤 했는데요.  
+이를 IntelliJ 안에서 바로 해결해보겠습니다.  
+  
+**JSON Viewer** 플러그인을 설치합니다.
+
+![14](./images/14.png)
+
+맥북 기준으로 ```command+shift+a```로 action 검색창을 열어 **JSON Viewer**를 검색합니다.
+
+![15](./images/15.png)
+
+그럼 화면 우측에 JSON Viewer가 열립니다.
+
+![16](./images/16.png)
+
+여기서 이제 원하는 JSON 코드를 바로 붙여넣으시고 하단의 Format 버튼을 클릭하시면 바로 정렬이 됩니다.  
+외부의 사이트에 굳이 가실필요도,  
+JSON 파일을 임의로 생성하실 필요도 없이  
+여기서 바로 JSON 관련 코드를 붙여넣고 사용하시면 되겠죠?
+
+
