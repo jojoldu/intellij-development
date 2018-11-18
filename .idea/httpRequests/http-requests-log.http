@@ -1,0 +1,240 @@
+GET http://localhost:8080/dev/hello
+Authorization: DEV
+
+<> 2018-03-03T111316.200.txt
+
+###
+
+GET http://localhost:8080/dev/hello
+
+<> 2018-03-03T111309.401.json
+
+###
+
+POST http://localhost:8080/group
+Content-Type: application/json
+
+{
+  "groupName": "그룹명",
+  "members": [
+    "회원1",
+    "회원2",
+    "회원3"
+  ],
+  "date": {
+    "year": 2018,
+    "month": 1,
+    "day": 24
+  }
+}
+
+<> 2018-03-03T111236.200.json
+
+###
+
+GET http://localhost:8080/cookie
+Cookie: user=jojoldu
+
+<> 2018-03-03T111222.200.txt
+
+###
+
+GET https://www.devbeginner.com
+
+<> 2018-03-03T111127.200.html
+
+###
+
+GET http://localhost:8080/cookie
+Cookie: user=jojoldu
+
+<> 2018-02-14T015510.200.txt
+
+###
+
+GET http://localhost:8080/dev/hello
+Authorization: DEV
+
+<> 2018-02-14T015407.200.txt
+
+###
+
+GET http://localhost:8080/dev/hello
+
+<> 2018-02-14T015357.401.json
+
+###
+
+POST http://localhost:8080/group
+Content-Type: application/json
+
+< /Users/jojoldu/Documents/git/intellij-development/course/rest/post.json
+
+<> 2018-02-14T015239.200.json
+
+###
+
+POST http://localhost:8080/group
+Content-Type: application/json
+
+{
+  "groupName": "그룹명",
+  "members": [
+    "회원1",
+    "회원2",
+    "회원3"
+  ],
+  "date": {
+    "year": 2018,
+    "month": 1,
+    "day": 24
+  }
+}
+
+<> 2018-02-14T015201.200.json
+
+###
+
+GET https://www.devbeginner.com
+
+<> 2018-02-14T015047.200.html
+
+###
+
+GET http://localhost:8080/cookie
+Cookie: user=jojoldu
+
+<> 2018-02-12T111937.200.txt
+
+###
+
+GET http://localhost:8080/real/hello
+Authorization: PRODUCTION
+
+<> 2018-02-12T111758.200.txt
+
+###
+
+GET http://localhost:8080/dev/hello
+Authorization: DEV
+
+<> 2018-02-12T111748.200.txt
+
+###
+
+GET http://localhost:8080/dev/hello
+
+<> 2018-02-12T111736.401.json
+
+###
+
+GET http://localhost:8080/hello
+
+<> 2018-02-12T111730.200.txt
+
+###
+
+POST http://localhost:8080/group
+Content-Type: application/json
+
+< /Users/jojoldu/Documents/git/intellij-development/course/rest/post.json
+
+<> 2018-02-12T111551.200.json
+
+###
+
+POST http://localhost:8080/group
+Content-Type: application/json
+
+{
+  "groupName": "그룹명",
+  "members": [
+    "회원1",
+    "회원2",
+    "회원3"
+  ],
+  "date": {
+    "year": 2018,
+    "month": 1,
+    "day": 24
+  }
+}
+
+<> 2018-02-12T111449.200.json
+
+###
+
+GET https://www.devbeginner.com
+
+<> 2018-02-12T111252.200.html
+
+###
+
+GET http://localhost:8080/cookie
+Cookie: user=jojoldu
+
+<> 2018-01-25T081130.200.txt
+
+###
+
+GET http://localhost:8080/dev/hello
+Authorization: DEV
+
+<> 2018-01-25T080005.200.txt
+
+###
+
+GET http://localhost:8080/dev/hello
+
+<> 2018-01-25T075811.401.json
+
+###
+
+GET http://localhost:8080/dev/hello
+
+###
+
+POST http://localhost:8080/group
+Content-Type: application/json
+
+< /Users/jojoldu/Documents/git/intellij-development/course/rest/post.json
+
+<> 2018-01-24T112637.200.json
+
+###
+
+POST http://localhost:8080/group
+Content-Type: application/json
+
+{
+  "groupName": "그룹명",
+  "members": [
+    "회원1",
+    "회원2",
+    "회원3"
+  ],
+  "date": {
+    "year": 2018,
+    "month": 1,
+    "day": 24
+  }
+}
+
+<> 2018-01-24T112124.200.json
+
+###
+
+GET http://localhost:8080/cookie
+Cookie: user=jojoldu
+
+<> 2018-01-24T101406.200.txt
+
+###
+
+GET http://localhost:8080/cookie
+Cookie: user=jojoldu
+
+<> 2018-01-24T101238.404.json
+
+###
+

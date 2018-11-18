@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="초보개발자모임" uuid="38a09171-d10d-4a31-aa32-f373dd99466b">
+      <database-info product="MySQL" version="10.2.11-MariaDB-log" jdbc-version="4.2" driver-name="MariaDB connector/J" driver-version="2.2.1" family="MARIADB" exact-version="10.2.11">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>jojoldu</user-name>
+      <introspection-schemas>*:devbeginner</introspection-schemas>
+    </data-source>
+    <data-source name="Local" uuid="0734652c-c36a-422b-b9f7-c24930fc237d">
+      <database-info product="H2" version="1.4.196 (2017-06-10)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.4.196 (2017-06-10)" family="H2" exact-version="1.4.196">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <introspection-schemas>TESTDB:PUBLIC</introspection-schemas>
+    </data-source>
+  </component>
+</project>
