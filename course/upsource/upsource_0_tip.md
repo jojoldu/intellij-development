@@ -1,5 +1,9 @@
 # Upsource Tips
 
+* Upsource Git Graph
+    * 
+* Code Intelligence
+    * 
 * Navigation
     * [individual file](https://www.jetbrains.com/help/upsource/view-individual-files.html)
 * Search
