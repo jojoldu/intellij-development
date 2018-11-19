@@ -65,3 +65,6 @@ n
 >src/test/java/com/jojoldu/intellij/development/TestUtiils.java,9/6/9672bd24bf3f7b963e0e960c560108790637ccb6
 l
 <src/main/java/com/jojoldu/intellij/development/web/Test.java,9/e/9eafdcdbc34f9d737a0a7727e1c129819a7e3bcf
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
