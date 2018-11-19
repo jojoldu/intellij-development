@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd8faeae-412a-4e1c-8f63-bcfec6669032" name="[테스트] 작성" comment="캐시 클리어 및 전체 재커밋" />
+    <list default="true" id="fd8faeae-412a-4e1c-8f63-bcfec6669032" name="[테스트] 작성" comment="캐시 클리어로 인한 전체 파일 커밋">
+      <change beforePath="$PROJECT_DIR$/course/upsource/upsource_4_code_intelligence.md" beforeDir="false" afterPath="$PROJECT_DIR$/course/upsource/upsource_4_code_intelligence.md" afterDir="false" />
+    </list>
     <list id="fa73d589-ad38-4fde-b000-4c45bb4724ad" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -80,8 +82,9 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -89,8 +92,8 @@
           <entry key="gitignore" value="3" />
           <entry key="gradle" value="3" />
           <entry key="java" value="405" />
-          <entry key="md" value="136" />
-          <entry key="txt" value="151" />
+          <entry key="md" value="206" />
+          <entry key="txt" value="176" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -98,8 +101,8 @@
           <entry key="Git file" value="3" />
           <entry key="Groovy" value="3" />
           <entry key="JAVA" value="405" />
-          <entry key="Markdown" value="136" />
-          <entry key="PLAIN_TEXT" value="151" />
+          <entry key="Markdown" value="206" />
+          <entry key="PLAIN_TEXT" value="176" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -107,7 +110,7 @@
           <entry key="gitignore" value="2" />
           <entry key="gradle" value="1" />
           <entry key="java" value="20" />
-          <entry key="md" value="4" />
+          <entry key="md" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -115,7 +118,7 @@
           <entry key="Git file" value="2" />
           <entry key="Groovy" value="1" />
           <entry key="JAVA" value="20" />
-          <entry key="Markdown" value="4" />
+          <entry key="Markdown" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -129,6 +132,22 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="intellij-development" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course/upsource/upsource_5_project.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="168">
+                <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -416,15 +435,15 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.9.RELEASE/eb1d7232a90469dd12946582bb9a99b84aa632c/spring-boot-gradle-plugin-1.5.9.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.9.RELEASE/61791907844a11bcea7eca8fb8ca853c9a95421a/spring-boot-loader-tools-1.5.9.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/7bb9ab86474b9ff2e7aa8ea3609878a1750e3f90/dependency-management-plugin-1.0.3.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.13.RELEASE/fc9cf4f489515d429b005ee86ef105a704a94016/spring-core-4.3.13.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.17.RELEASE/539d513de98682a9dbd4b955757001a37a95c96b/spring-boot-gradle-plugin-1.5.17.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.17.RELEASE/cac52e5f4648f1f31db626c08f42cd5830357c04/spring-boot-loader-tools-1.5.17.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/d6c42859b24b62034b2a5e0db5ea12c688493d48/dependency-management-plugin-1.0.6.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.20.RELEASE/58f7ba697f33a202b743fd6deabbd6533f9f24dc/spring-core-4.3.20.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.9.RELEASE/4f3d6d5164784c51959db58bfc438c7ee44e0c5c/spring-boot-gradle-plugin-1.5.9.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.9.RELEASE/5ce69eaa5709ccff5b4db4a85abfae16affa107a/spring-boot-loader-tools-1.5.9.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.3.RELEASE/c7fc988680e19cef9bf91de0c39b891e4c8dca2d/dependency-management-plugin-1.0.3.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.13.RELEASE/eea18d7f4d01f1baa1b6728b678b5a6fe23c61f6/spring-core-4.3.13.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.17.RELEASE/25f61bd6f8f90d0fb329d7ec6bdd1e6cbc4cf7cf/spring-boot-gradle-plugin-1.5.17.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.17.RELEASE/ffac4f5ed3c471b5450a7177796f61ced813c91/spring-boot-loader-tools-1.5.17.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/c7118365d75bca698892b5df1e683b8d6d6b87bb/dependency-management-plugin-1.0.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.20.RELEASE/fcc490a68e7cd151867534f1629d2d26b1ca69b2/spring-core-4.3.20.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
                           </list>
                         </option>
@@ -524,8 +543,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/448bf39f-a0c1-4539-b177-b995f9d9b5e0/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/config/TcpH2DataSourceConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/util/RegexUtils.java" />
         <option value="/JSON Fragment (JsonTester.java:335).json" />
@@ -575,6 +592,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/course/upsource/upsource_4_tip.md" />
         <option value="$PROJECT_DIR$/course/upsource/upsource_4_code_intelligence.md" />
+        <option value="$PROJECT_DIR$/course/upsource/upsource_5_branch.md" />
+        <option value="$PROJECT_DIR$/course/upsource/upsource_5_project.md" />
       </list>
     </option>
   </component>
@@ -795,7 +814,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -806,34 +825,34 @@
             <path>
               <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
               <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
               <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="upsource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
               <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="upsource" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
               <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="development" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="upsource" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -875,13 +894,14 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25431532" />
-    <property name="settings.editor.selected.configurable" value="gradle.experimental" />
+    <property name="settings.editor.selected.configurable" value="upsource.project.settings" />
     <property name="start.from.branch" value="develop" />
     <property name="tasks.close.task.update.state.enabled" value="true" />
     <property name="tasks.open.task.update.state.enabled" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/course/upsource/images/5" />
       <recent name="$PROJECT_DIR$/course/upsource" />
     </key>
   </component>
@@ -1377,6 +1397,7 @@
       <workItem from="1520042635562" duration="1246000" />
       <workItem from="1528886725837" duration="1123000" />
       <workItem from="1542424277108" duration="11042000" />
+      <workItem from="1542587840373" duration="1888000" />
     </task>
     <task id="LOCAL-00023" summary="1.5.17 업데이트">
       <created>1542424326919</created>
@@ -1427,7 +1448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542587444070</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="캐시 클리어로 인한 전체 파일 커밋">
+      <created>1542587971162</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1542587971162</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <option name="updateEnabled" value="false" />
     <option name="updateInterval" value="10" />
     <option name="createBranch" value="false" />
@@ -1483,12 +1511,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88276000" />
+    <option name="totallyTimeSpent" value="90164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="80" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49242425" visible="true" weight="0.17518637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49242425" visible="true" weight="0.15228967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1498,7 +1527,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.50757575" side_tool="true" weight="0.1971917" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.490232" weight="0.43626943" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7081807" weight="0.3971341" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1513,8 +1542,8 @@
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.502442" side_tool="true" weight="0.32881" />
       <window_info anchor="bottom" id="Regex Tester" order="14" weight="0.32882413" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.66483516" weight="0.55336785" />
-      <window_info anchor="bottom" id="Terminal" order="16" sideWeight="0.497558" visible="true" weight="0.3284974" />
-      <window_info anchor="bottom" id="Reviews" order="17" weight="0.32391524" />
+      <window_info anchor="bottom" id="Reviews" order="16" weight="0.32331607" />
+      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.497558" weight="0.30010384" />
       <window_info anchor="bottom" id="Tail" order="18" />
       <window_info anchor="bottom" id="Build" order="19" sideWeight="0.4993895" weight="0.3284974" />
       <window_info anchor="bottom" id="Messages" order="20" />
@@ -1522,7 +1551,6 @@
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="22" />
       <window_info anchor="bottom" id="Quokka" order="23" />
       <window_info anchor="bottom" id="Database Changes" order="24" />
-      <window_info anchor="right" id="Jenkins" />
       <window_info anchor="right" id="sbt" order="0" />
       <window_info anchor="right" id="Quick Notes" order="1" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
@@ -1544,6 +1572,7 @@
       <window_info anchor="right" id="Redis Servers" order="18" />
       <window_info anchor="right" id="JSON Viewer" order="19" weight="0.491453" />
       <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="20" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Jenkins" order="21" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1594,7 +1623,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="[ST-1277] [테스트] Intellij &amp; Gitflow 테스트 코드 추가" />
     <MESSAGE value="[ST-1277] s -&gt; 1111로 변경" />
     <MESSAGE value="[ST-1277] [테스트] Intellij &amp; Gitflow 테스트 추가" />
     <MESSAGE value="[ST-1277] [테스트] Intellij &amp; Gitflow 테스트 큐에이" />
@@ -1619,7 +1647,8 @@
     <MESSAGE value="코드 인텔리전스 설명 추가" />
     <MESSAGE value="코멘트 추가" />
     <MESSAGE value="캐시 클리어 및 전체 재커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="캐시 클리어 및 전체 재커밋" />
+    <MESSAGE value="캐시 클리어로 인한 전체 파일 커밋" />
+    <option name="LAST_COMMIT_MESSAGE" value="캐시 클리어로 인한 전체 파일 커밋" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1652,30 +1681,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/util/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/086dd71d-cf47-4038-98df-cafb93a8d247/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/252afd77-6b72-4c7f-98c6-297ef4abcc37/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/252afd77-6b72-4c7f-98c6-297ef4abcc37/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1912,9 +1917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1959,11 +1961,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/course/upsource/upsource_3_review.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/course/upsource/upsource_4_code_intelligence.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="186">
-            <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <first_editor relative-caret-position="72">
+            <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course/upsource/upsource_7_intellij.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course/upsource/upsource_6_search.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="48">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course/upsource/upsource_5_project.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>

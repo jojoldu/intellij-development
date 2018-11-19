@@ -1,4 +1,4 @@
-# Code intelligence
+# 4. Upsource Code intelligence
 
 Upsource 에는 IntelliJ IDEA 만큼 다양한 코드리뷰 기능을 지원합니다.
 그 중에서 **Code intelligence** 기능이 있습니다.  
