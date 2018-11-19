@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd8faeae-412a-4e1c-8f63-bcfec6669032" name="[테스트] 작성" comment="코드 인텔리전스 설명 추가">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fd8faeae-412a-4e1c-8f63-bcfec6669032" name="[테스트] 작성" comment="[ST-1286] [테스트] 작성">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="fa73d589-ad38-4fde-b000-4c45bb4724ad" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -91,7 +91,7 @@
           <entry key="gradle" value="3" />
           <entry key="java" value="405" />
           <entry key="md" value="136" />
-          <entry key="txt" value="125" />
+          <entry key="txt" value="134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -100,7 +100,7 @@
           <entry key="Groovy" value="3" />
           <entry key="JAVA" value="405" />
           <entry key="Markdown" value="136" />
-          <entry key="PLAIN_TEXT" value="125" />
+          <entry key="PLAIN_TEXT" value="134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -121,7 +121,7 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="3" />
+          <entry key="git.branch.checkout.local" value="4" />
           <entry key="git.branch.create.new" value="1" />
           <entry key="git.branch.merge" value="1" />
         </counts>
@@ -130,22 +130,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="intellij-development" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course/upsource/upsource_4_code_intelligence.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="61" column="2" lean-forward="true" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -169,7 +153,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature/JJ-1" />
       </map>
     </option>
   </component>
@@ -820,24 +804,6 @@
               <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
               <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="upsource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="upsource" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1385,7 +1351,7 @@
       <updated>1520042785973</updated>
       <workItem from="1520042635562" duration="1246000" />
       <workItem from="1528886725837" duration="1123000" />
-      <workItem from="1542424277108" duration="10592000" />
+      <workItem from="1542424277108" duration="10863000" />
     </task>
     <task id="LOCAL-00023" summary="1.5.17 업데이트">
       <created>1542424326919</created>
@@ -1429,7 +1395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542531924044</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="코멘트 추가">
+      <created>1542587444070</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1542587444070</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <option name="updateEnabled" value="false" />
     <option name="updateInterval" value="10" />
     <option name="createBranch" value="false" />
@@ -1485,13 +1458,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87826000" />
+    <option name="totallyTimeSpent" value="88097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="80" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49242425" visible="true" weight="0.17518637" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49242425" visible="true" weight="0.17518637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1515,8 +1487,8 @@
       <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.49307775" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.502442" side_tool="true" weight="0.32881" />
       <window_info anchor="bottom" id="Regex Tester" order="14" weight="0.32882413" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.66483516" weight="0.55336785" />
-      <window_info anchor="bottom" id="Terminal" order="16" sideWeight="0.497558" visible="true" weight="0.3284974" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" sideWeight="0.66483516" visible="true" weight="0.55336785" />
+      <window_info anchor="bottom" id="Terminal" order="16" sideWeight="0.497558" weight="0.3284974" />
       <window_info anchor="bottom" id="Reviews" order="17" weight="0.32391524" />
       <window_info anchor="bottom" id="Tail" order="18" />
       <window_info anchor="bottom" id="Build" order="19" sideWeight="0.4993895" weight="0.3284974" />
@@ -1597,7 +1569,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="[ST-1261] [테스트] Task 테스트" />
     <MESSAGE value="[ST-1262] [테스트] Gitflow테스트" />
     <MESSAGE value="[ST-1277] [테스트] Intellij &amp; Gitflow 테스트 코드 추가" />
     <MESSAGE value="[ST-1277] s -&gt; 1111로 변경" />
@@ -1622,7 +1593,8 @@
     <MESSAGE value=".idea를 버전관리" />
     <MESSAGE value="idea 추가" />
     <MESSAGE value="코드 인텔리전스 설명 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="코드 인텔리전스 설명 추가" />
+    <MESSAGE value="코멘트 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="코멘트 추가" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1965,8 +1937,8 @@
     <entry file="file://$PROJECT_DIR$/course/upsource/upsource_4_code_intelligence.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="61" column="2" lean-forward="true" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
+          <first_editor relative-caret-position="186">
+            <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
