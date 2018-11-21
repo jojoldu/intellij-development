@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd8faeae-412a-4e1c-8f63-bcfec6669032" name="[테스트] 작성" comment="[jetbrainsday2018] 코드리뷰 테스트">
+    <list default="true" id="fd8faeae-412a-4e1c-8f63-bcfec6669032" name="[테스트] 작성" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/Test.java" afterDir="false" />
     </list>
     <list id="fa73d589-ad38-4fde-b000-4c45bb4724ad" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -94,18 +95,18 @@
         <counts>
           <entry key="gitignore" value="3" />
           <entry key="gradle" value="3" />
-          <entry key="java" value="618" />
+          <entry key="java" value="629" />
           <entry key="md" value="206" />
-          <entry key="txt" value="221" />
+          <entry key="txt" value="259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="3" />
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="618" />
+          <entry key="JAVA" value="629" />
           <entry key="Markdown" value="206" />
-          <entry key="PLAIN_TEXT" value="221" />
+          <entry key="PLAIN_TEXT" value="259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -141,8 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="600">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -910,7 +911,7 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542791650195" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542791836134" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2&#10;MariaDB" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="last.edited.regexp" value="2" />
@@ -1424,7 +1425,7 @@
       <workItem from="1528886725837" duration="1123000" />
       <workItem from="1542424277108" duration="11042000" />
       <workItem from="1542587840373" duration="6657000" />
-      <workItem from="1542790217590" duration="1377000" />
+      <workItem from="1542790217590" duration="1628000" />
     </task>
     <task id="LOCAL-00023" summary="1.5.17 업데이트">
       <created>1542424326919</created>
@@ -1489,7 +1490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542790598890</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="[jetbrainsday2018] 변경 추가">
+      <created>1542791814586</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1542791814586</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <option name="updateEnabled" value="false" />
     <option name="updateInterval" value="10" />
     <option name="createBranch" value="false" />
@@ -1545,7 +1553,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96310000" />
+    <option name="totallyTimeSpent" value="96561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="973" extended-state="6" />
@@ -1575,8 +1583,8 @@
       <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.49307775" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.502442" side_tool="true" weight="0.32881" />
       <window_info anchor="bottom" id="Regex Tester" order="14" weight="0.32882413" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.66483516" weight="0.55336785" />
-      <window_info anchor="bottom" id="Reviews" order="16" weight="0.32236096" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.66483516" weight="0.5527809" />
+      <window_info anchor="bottom" id="Reviews" order="16" weight="0.3215909" />
       <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.497558" weight="0.30010384" />
       <window_info anchor="bottom" id="Tail" order="18" />
       <window_info anchor="bottom" id="Build" order="19" sideWeight="0.4993895" weight="0.3284974" />
@@ -1657,7 +1665,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="[ST-1277] [테스트] Intellij &amp; Gitflow 테스트 추가" />
     <MESSAGE value="[ST-1277] [테스트] Intellij &amp; Gitflow 테스트 큐에이" />
     <MESSAGE value="[ST-1277] [테스트] Intellij &amp; Gitflow 테스트" />
     <MESSAGE value="[TPBMPG-1574] [테스트] Intellij &amp; Gitflow 사용하기" />
@@ -1682,7 +1689,8 @@
     <MESSAGE value="캐시 클리어 및 전체 재커밋" />
     <MESSAGE value="캐시 클리어로 인한 전체 파일 커밋" />
     <MESSAGE value="[jetbrainsday2018] 코드리뷰 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="[jetbrainsday2018] 코드리뷰 테스트" />
+    <MESSAGE value="[jetbrainsday2018] 변경 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[jetbrainsday2018] 변경 추가" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2024,8 +2032,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="600">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

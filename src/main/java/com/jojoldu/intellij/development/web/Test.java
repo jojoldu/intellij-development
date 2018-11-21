@@ -24,6 +24,7 @@ public class Test {
 
     public void show() {
         int a;
+        int b;
 
         System.out.println("a");
     }
