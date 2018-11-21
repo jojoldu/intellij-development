@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd8faeae-412a-4e1c-8f63-bcfec6669032" name="[테스트] 작성" comment="캐시 클리어로 인한 전체 파일 커밋">
+    <list default="true" id="fd8faeae-412a-4e1c-8f63-bcfec6669032" name="[테스트] 작성" comment="[ST-1286] [테스트] 작성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course/upsource/upsource_5_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/course/upsource/upsource_5_project.md" afterDir="false" />
     </list>
     <list id="fa73d589-ad38-4fde-b000-4c45bb4724ad" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -22,9 +21,11 @@
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -82,43 +83,44 @@
     <session id="-695124781">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="3" />
+          <entry key="gitignore" value="16" />
           <entry key="gradle" value="3" />
-          <entry key="java" value="428" />
+          <entry key="java" value="629" />
           <entry key="md" value="206" />
-          <entry key="txt" value="176" />
+          <entry key="txt" value="298" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Git file" value="3" />
+          <entry key="Git file" value="16" />
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="428" />
+          <entry key="JAVA" value="629" />
           <entry key="Markdown" value="206" />
-          <entry key="PLAIN_TEXT" value="176" />
+          <entry key="PLAIN_TEXT" value="298" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="4" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="21" />
+          <entry key="java" value="29" />
           <entry key="md" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Git file" value="2" />
+          <entry key="Git file" value="4" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="29" />
           <entry key="Markdown" value="14" />
         </counts>
       </usages-collector>
@@ -137,13 +139,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/course/upsource/upsource_5_project.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="349">
-                <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -172,7 +171,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/JJ-1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -569,7 +568,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/dto/MemberDto.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jojoldu/intellij/development/util/RegexTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/http/CookieController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/Test.java" />
         <option value="$PROJECT_DIR$/course/json/Student.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/jojoldu/intellij/development/util/JsonTester.java" />
         <option value="/JSON Fragment (JsonTester.java:575).json" />
@@ -589,12 +587,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/domain/Member.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jojoldu/intellij/development/web/member/MemberControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/service/MemberService.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/course/upsource/upsource_4_tip.md" />
         <option value="$PROJECT_DIR$/course/upsource/upsource_4_code_intelligence.md" />
         <option value="$PROJECT_DIR$/course/upsource/upsource_5_branch.md" />
         <option value="$PROJECT_DIR$/course/upsource/upsource_5_project.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/member/MemberController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/Test.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -611,10 +610,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1920" />
-    <option name="y" value="80" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -815,7 +813,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -826,28 +823,7 @@
             <path>
               <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
               <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="upsource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="upsource" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intellij-development" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="upsource" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="5" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intellij-development" type="b2602c69:ProjectViewProjectNode" />
@@ -899,6 +875,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -930,7 +907,7 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542587407667" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542792188070" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2&#10;MariaDB" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="last.edited.regexp" value="2" />
@@ -1444,6 +1421,7 @@
       <workItem from="1528886725837" duration="1123000" />
       <workItem from="1542424277108" duration="11042000" />
       <workItem from="1542587840373" duration="6657000" />
+      <workItem from="1542790217590" duration="1950000" />
     </task>
     <task id="LOCAL-00023" summary="1.5.17 업데이트">
       <created>1542424326919</created>
@@ -1501,7 +1479,35 @@
       <option name="project" value="LOCAL" />
       <updated>1542587971162</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="[jetbrainsday2018] 코드리뷰 테스트">
+      <created>1542790598890</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1542790598890</updated>
+    </task>
+    <task id="LOCAL-00032" summary="[jetbrainsday2018] 변경 추가">
+      <created>1542791814586</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1542791814586</updated>
+    </task>
+    <task id="LOCAL-00033" summary="[jetbrainsday2018] 변수 b 추가">
+      <created>1542791875752</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1542791875752</updated>
+    </task>
+    <task id="LOCAL-00034" summary="[jetbrainsday2018] idea 주석 추가">
+      <created>1542791948231</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1542791948231</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <option name="updateEnabled" value="false" />
     <option name="updateInterval" value="10" />
     <option name="createBranch" value="false" />
@@ -1557,13 +1563,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94933000" />
+    <option name="totallyTimeSpent" value="96883000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="80" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49242425" visible="true" weight="0.15228967" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49242425" visible="true" weight="0.17460318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1579,7 +1585,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3291714" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
@@ -1587,8 +1593,8 @@
       <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.49307775" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.502442" side_tool="true" weight="0.32881" />
       <window_info anchor="bottom" id="Regex Tester" order="14" weight="0.32882413" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.66483516" weight="0.55336785" />
-      <window_info anchor="bottom" id="Reviews" order="16" weight="0.32331607" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.66483516" weight="0.5527809" />
+      <window_info anchor="bottom" id="Reviews" order="16" weight="0.3215909" />
       <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.497558" weight="0.30010384" />
       <window_info anchor="bottom" id="Tail" order="18" />
       <window_info anchor="bottom" id="Build" order="19" sideWeight="0.4993895" weight="0.3284974" />
@@ -1607,7 +1613,7 @@
       <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32967034" />
       <window_info anchor="right" id="Database" order="9" weight="0.26984128" />
-      <window_info anchor="right" id="News Feed" order="10" weight="0.32960597" />
+      <window_info anchor="right" id="News Feed" order="10" weight="0.32905984" />
       <window_info anchor="right" id="Palette&#9;" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="12" />
       <window_info anchor="right" id="Bean Validation" order="13" />
@@ -1669,10 +1675,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="[ST-1277] s -&gt; 1111로 변경" />
-    <MESSAGE value="[ST-1277] [테스트] Intellij &amp; Gitflow 테스트 추가" />
-    <MESSAGE value="[ST-1277] [테스트] Intellij &amp; Gitflow 테스트 큐에이" />
-    <MESSAGE value="[ST-1277] [테스트] Intellij &amp; Gitflow 테스트" />
     <MESSAGE value="[TPBMPG-1574] [테스트] Intellij &amp; Gitflow 사용하기" />
     <MESSAGE value="프로젝트 버전 업" />
     <MESSAGE value="코드리뷰!" />
@@ -1694,7 +1696,11 @@
     <MESSAGE value="코멘트 추가" />
     <MESSAGE value="캐시 클리어 및 전체 재커밋" />
     <MESSAGE value="캐시 클리어로 인한 전체 파일 커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="캐시 클리어로 인한 전체 파일 커밋" />
+    <MESSAGE value="[jetbrainsday2018] 코드리뷰 테스트" />
+    <MESSAGE value="[jetbrainsday2018] 변경 추가" />
+    <MESSAGE value="[jetbrainsday2018] 변수 b 추가" />
+    <MESSAGE value="[jetbrainsday2018] idea 주석 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[jetbrainsday2018] idea 주석 추가" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1970,23 +1976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -2026,11 +2015,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course/upsource/upsource_6_search.md">
+    <entry file="file://$PROJECT_DIR$/course/upsource/upsource_6_search.md" />
+    <entry file="file://$PROJECT_DIR$/course/upsource/upsource_5_project.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="48">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <first_editor relative-caret-position="336">
+            <caret line="14" selection-start-line="14" selection-end-line="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -2038,22 +2028,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/member/MemberController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="432">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#1002#1003#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course/upsource/upsource_5_project.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="349">
-            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
