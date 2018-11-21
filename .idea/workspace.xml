@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd8faeae-412a-4e1c-8f63-bcfec6669032" name="[테스트] 작성" comment="캐시 클리어로 인한 전체 파일 커밋">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course/upsource/upsource_5_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/course/upsource/upsource_5_project.md" afterDir="false" />
     </list>
     <list id="fa73d589-ad38-4fde-b000-4c45bb4724ad" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -139,8 +140,8 @@
         <entry file="file://$PROJECT_DIR$/course/upsource/upsource_5_project.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="757">
-                <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <first_editor relative-caret-position="349">
+                <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -612,8 +613,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1920" />
     <option name="y" value="80" />
-    <option name="width" value="1680" />
-    <option name="height" value="975" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1442,7 +1443,7 @@
       <workItem from="1520042635562" duration="1246000" />
       <workItem from="1528886725837" duration="1123000" />
       <workItem from="1542424277108" duration="11042000" />
-      <workItem from="1542587840373" duration="5400000" />
+      <workItem from="1542587840373" duration="6657000" />
     </task>
     <task id="LOCAL-00023" summary="1.5.17 업데이트">
       <created>1542424326919</created>
@@ -1556,7 +1557,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93676000" />
+    <option name="totallyTimeSpent" value="94933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="80" width="1920" height="1057" extended-state="6" />
@@ -2049,8 +2050,8 @@
     <entry file="file://$PROJECT_DIR$/course/upsource/upsource_5_project.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="757">
-            <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <first_editor relative-caret-position="349">
+            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           </first_editor>
           <second_editor />
         </state>
