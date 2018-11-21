@@ -68,3 +68,11 @@ l
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+T
+$course/upsource/upsource_3_review.md,f/9/f9d8e7385ddfc3a0bbfc65be6a2e5c0411878073
+_
+/course/upsource/upsource_4_code_intelligence.md,7/f/7fbc0cd406c883d56d3aaa3875620e032ce3a96e
+V
+&course/upsource/upsource_7_intellij.md,2/2/22df46272187c61b40d0840853fc01442a98c1e1
+U
+%course/upsource/upsource_5_project.md,2/a/2abb9903a2dff9dfb361c966b83f3880fea83c96
