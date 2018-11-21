@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="초보개발자모임" uuid="38a09171-d10d-4a31-aa32-f373dd99466b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="MYSQL" exact-version="0.0" />
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
+    <data-source name="Local" uuid="0734652c-c36a-422b-b9f7-c24930fc237d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="H2" exact-version="0.0" />
+      <introspection-schemas>@:PUBLIC</introspection-schemas>
+    </data-source>
+  </component>
+</project>

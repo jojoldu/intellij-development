@@ -1,0 +1,14 @@
+{
+  "response": {
+    "birthday": "str",
+    "name": "str",
+    "id": "str",
+    "gender": "str",
+    "age": "str",
+    "profileImage": "str",
+    "nickname": "str",
+    "email": "str"
+  },
+  "message": "str",
+  "resultcode": "str"
+}
