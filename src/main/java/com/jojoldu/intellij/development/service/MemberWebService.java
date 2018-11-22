@@ -20,6 +20,6 @@ public class MemberWebService {
 
     public void addWeb() {
         Member member = new Member("name", "email");
-        System.out.println("member=");
+        System.out.println("member="+ member);
     }
 }
