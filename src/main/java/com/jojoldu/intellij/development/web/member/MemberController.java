@@ -33,6 +33,11 @@ public class MemberController {
         return memberRepository.findAll();
     }
 
+    @GetMapping("/members")
+    public List<Member> findAll(){
+        return memberRepository.findAll();
+    }
+
     @GetMapping("/member/{id}")
     public Member findOne(@PathVariable("id") Long id) {
         return memberRepository.findOne(id);

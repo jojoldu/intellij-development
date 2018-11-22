@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="fd8faeae-412a-4e1c-8f63-bcfec6669032" name="[테스트] 작성" comment="[ST-1286] [테스트] 작성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="fd8faeae-412a-4e1c-8f63-bcfec6669032" name="[테스트] 작성" comment="코드리뷰 반영" />
+>>>>>>> Stashed changes
     <list id="fa73d589-ad38-4fde-b000-4c45bb4724ad" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -94,18 +98,30 @@
         <counts>
           <entry key="gitignore" value="16" />
           <entry key="gradle" value="3" />
+<<<<<<< Updated upstream
           <entry key="java" value="629" />
           <entry key="md" value="206" />
           <entry key="txt" value="298" />
+=======
+          <entry key="java" value="746" />
+          <entry key="md" value="206" />
+          <entry key="txt" value="334" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="16" />
           <entry key="Groovy" value="3" />
+<<<<<<< Updated upstream
           <entry key="JAVA" value="629" />
           <entry key="Markdown" value="206" />
           <entry key="PLAIN_TEXT" value="298" />
+=======
+          <entry key="JAVA" value="746" />
+          <entry key="Markdown" value="206" />
+          <entry key="PLAIN_TEXT" value="334" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -141,8 +157,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="366">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+=======
+            <state relative-caret-position="552">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -1507,7 +1531,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542791948231</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="35" />
+=======
+    <task id="LOCAL-00035" summary="[2018/jetbrainsday] memberWebService 추가">
+      <created>1542856471191</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1542856471191</updated>
+    </task>
+    <task id="LOCAL-00036" summary="코드리뷰 반영">
+      <created>1542871378529</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1542871378529</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+>>>>>>> Stashed changes
     <option name="updateEnabled" value="false" />
     <option name="updateInterval" value="10" />
     <option name="createBranch" value="false" />
@@ -1563,11 +1605,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="96883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="973" extended-state="6" />
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="102484000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="994" extended-state="6" />
+>>>>>>> Stashed changes
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49242425" visible="true" weight="0.17460318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
@@ -1593,8 +1642,13 @@
       <window_info anchor="bottom" id="SonarLint" order="12" sideWeight="0.49307775" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.502442" side_tool="true" weight="0.32881" />
       <window_info anchor="bottom" id="Regex Tester" order="14" weight="0.32882413" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.66483516" weight="0.5527809" />
       <window_info anchor="bottom" id="Reviews" order="16" weight="0.3215909" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.66483516" weight="0.4645233" />
+      <window_info active="true" anchor="bottom" id="Reviews" order="16" visible="true" weight="0.3203991" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.497558" weight="0.30010384" />
       <window_info anchor="bottom" id="Tail" order="18" />
       <window_info anchor="bottom" id="Build" order="19" sideWeight="0.4993895" weight="0.3284974" />
@@ -1675,8 +1729,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <confirmRemoveEmptyChangelist value="2" />
+<<<<<<< Updated upstream
     <MESSAGE value="[TPBMPG-1574] [테스트] Intellij &amp; Gitflow 사용하기" />
     <MESSAGE value="프로젝트 버전 업" />
+=======
+>>>>>>> Stashed changes
     <MESSAGE value="코드리뷰!" />
     <MESSAGE value="[TPBMPG-1573] [테스트] IntelliJ에서 사용하기" />
     <MESSAGE value="프로젝트 버전업" />
@@ -1700,7 +1757,13 @@
     <MESSAGE value="[jetbrainsday2018] 변경 추가" />
     <MESSAGE value="[jetbrainsday2018] 변수 b 추가" />
     <MESSAGE value="[jetbrainsday2018] idea 주석 추가" />
+<<<<<<< Updated upstream
     <option name="LAST_COMMIT_MESSAGE" value="[jetbrainsday2018] idea 주석 추가" />
+=======
+    <MESSAGE value="[2018/jetbrainsday] memberWebService 추가" />
+    <MESSAGE value="코드리뷰 반영" />
+    <option name="LAST_COMMIT_MESSAGE" value="코드리뷰 반영" />
+>>>>>>> Stashed changes
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2050,6 +2113,26 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/web/member/MemberWebController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jojoldu/intellij/development/service/MemberWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> Stashed changes
   </component>
   <component name="gradleExecuteTaskHistory">
     <option value="" />
