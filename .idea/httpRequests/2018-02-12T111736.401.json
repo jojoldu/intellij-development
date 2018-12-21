@@ -1,8 +1,0 @@
-{
-  "timestamp": 1518445056367,
-  "status": 401,
-  "error": "Unauthorized",
-  "exception": "com.jojoldu.intellij.development.web.http.HelloController$AccessDeniedException",
-  "message": "No message available",
-  "path": "/dev/hello"
-}
