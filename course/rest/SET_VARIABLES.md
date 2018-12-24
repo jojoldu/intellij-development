@@ -126,8 +126,32 @@ client.log("쿠키: "+client.global.get("JSESSIONID"));
 
 ### 1-3. 글로벌 변수 사용하기 
 
+자 이제 저장한 JSESSIONID를 사용해서 다른 요청을 해보겠습니다.  
+OKKY의 사용자 정보 수정 페이지 (https://okky.kr/user/edit)는 로그인 되지 않았을때는 오류를 발생시키죠?  
+해당 페이지를 조회해보겠습니다.
+
+```bash
+GET https://okky.kr/user/edit
+Cookie: JSESSIONID={{JSESSIONID}}
+```
+
+* Cookie에 JSESSIONID를 넣어 로그인 된 상태가 됨
+ 
+글로벌 변수로 저장한 (```client.global.set("JSESSIONID")```) 값을 사용하는 방법은 ```{{변수명}}```입니다.  
+  
+자 이제 다시 한번 요청을 해보면!
+
+![http6](./images/save-response/http6.png)
+
+이렇게 성공 (200) 으로 응답이 떨어지는 것을 확인할 수 있습니다.  
+어떻게 사용하는지 대충 감이 오시죠?
 
 ## 2. 테스트 코드 작성
+
+두번째는 이 방식을 테스트 코드로 만드는 것입니다.  
+JUnit과 같은 테스트 코드로 작성하기 애매한 경우 ```.http```파일로 테스트 코드를 작성할 수 있습니다.  
+    
+위에서 작성한 코드를 다음과 같이 변경해봅니다.
 
 ```bash
 ### OKKY 개인정보 수정페이지 호출3
@@ -141,6 +165,20 @@ client.test("응답이 정상적으로 왔는지 확인한다", function() {
 });
 %}
 ```
+
+* ```client.test```
+    * 테스트 코드 선언문
+    * 첫번째 인자는 테스트 설명, 두번째 인자는 테스트 실행 내용을 담는다
+* ```client.assert```
+    * 테스트 단언문
+    * 첫번째 인자가 ```true``` 가 아니면 테스트는 실패한다
+
+자 이제 이를 실행해보면!  
+콘솔창 상단의 **Tests** 탭에 해당 테스트 내역이 잘 출력됩니다.
+
+![http7](./images/save-response/http7.png)
+
+테스트 코드로 작성하기 애매한 API 테스트는 이를 통해 테스트를 진행하면 되겠죠?  
 
 ## 참고
 
